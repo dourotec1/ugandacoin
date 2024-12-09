@@ -37,7 +37,7 @@ export const Reputation = () => {
         <div className="mb-8">
           <h1 className="text-3xl font-bold mb-4">Reputation Import</h1>
           <p className="text-gray-600">
-            Transfer your existing trading reputation from other platforms to build trust on Moneiero.
+            Transfer your existing trading reputation from other platforms to build trust on Swapmonero.
           </p>
         </div>
 
@@ -117,7 +117,7 @@ export const Reputation = () => {
               <div>
                 <h3 className="font-medium mb-1">Verification Process</h3>
                 <p className="text-gray-600">
-                  Our team will verify your reputation and import it to your Moneiero profile
+                  Our team will verify your reputation and import it to your Swapmonero profile
                 </p>
               </div>
             </div>
