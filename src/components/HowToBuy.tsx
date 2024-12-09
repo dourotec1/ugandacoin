@@ -7,7 +7,7 @@ export const HowToBuy = () => {
       icon: UserPlus,
       number: 1,
       title: "Register",
-      description: "Create an account on Moneiero with instant sign-up and get your free cryptocurrency wallet."
+      description: "Create an account on Swapmonero with instant sign-up and get your free cryptocurrency wallet."
     },
     {
       icon: Search,
@@ -40,7 +40,7 @@ export const HowToBuy = () => {
     <section className="py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">
-          How to trade on Moneiero
+          How to trade on Swapmonero
         </h2>
         <p className="text-center text-gray-600 mb-12">
           It's easy and secure. All you need is 5 mins.
@@ -99,7 +99,7 @@ export const HowToBuy = () => {
 
         <div className="text-center">
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Moneiero is a decentralized peer-to-peer trading platform focused on privacy and security. 
+            Swapmonero is a decentralized peer-to-peer trading platform focused on privacy and security. 
             Trade your favorite cryptocurrencies with confidence using our escrow service and advanced 
             security features.
           </p>
