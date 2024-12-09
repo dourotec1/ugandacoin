@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="flex items-center gap-2">
             <Coins className="w-8 h-8 text-indigo-600" />
             <span className="text-xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              Moneiero
+              Swapmonero
             </span>
           </div>
           
@@ -25,7 +25,7 @@ export const Footer = () => {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://t.me/Moneiero"
+              href="https://t.me/Swapmonero"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-indigo-600 transition-colors"
@@ -33,7 +33,7 @@ export const Footer = () => {
               <MessageCircle className="w-6 h-6" />
             </a>
             <a
-              href="https://twitter.com/Moneiero"
+              href="https://twitter.com/Swapmonero"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-indigo-600 transition-colors"
