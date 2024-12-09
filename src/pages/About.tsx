@@ -4,20 +4,20 @@ export const About = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="text-3xl font-bold mb-8">About Moneiero</h1>
+        <h1 className="text-3xl font-bold mb-8">About Swapmonero</h1>
         
         <div className="space-y-8 bg-white p-8 rounded-xl shadow-sm">
           <div>
             <h2 className="text-xl font-semibold mb-4">Our Mission</h2>
             <p className="text-gray-600 leading-relaxed">
-              Moneiero is dedicated to providing a secure, private, and user-friendly platform for peer-to-peer cryptocurrency trading. 
+              Swapmonero is dedicated to providing a secure, private, and user-friendly platform for peer-to-peer cryptocurrency trading. 
               Our mission is to facilitate the adoption of privacy-focused cryptocurrencies while maintaining the highest standards of 
               security and user experience.
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-4">Why Choose Moneiero?</h2>
+            <h2 className="text-xl font-semibold mb-4">Why Choose Swapmonero?</h2>
             <ul className="space-y-4 text-gray-600">
               <li className="flex items-start gap-2">
                 <span className="font-semibold">Privacy First:</span>
