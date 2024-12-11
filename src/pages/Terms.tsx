@@ -10,7 +10,7 @@ export const Terms = () => {
           <div>
             <h2 className="text-xl font-semibold mb-4">1. Acceptance of Terms</h2>
             <p className="text-gray-600 leading-relaxed">
-              By accessing and using Moneiero, you agree to be bound by these Terms of Service and all applicable laws and regulations.
+              By accessing and using Swapmonero, you agree to be bound by these Terms of Service and all applicable laws and regulations.
             </p>
           </div>
 
@@ -35,7 +35,7 @@ export const Terms = () => {
           <div>
             <h2 className="text-xl font-semibold mb-4">4. Fees and Payments</h2>
             <p className="text-gray-600 leading-relaxed">
-              Moneiero charges minimal fees for our services. All fees are transparent and will be clearly displayed 
+              Swapmonero charges minimal fees for our services. All fees are transparent and will be clearly displayed 
               before each transaction.
             </p>
           </div>
@@ -53,7 +53,7 @@ export const Terms = () => {
           <div>
             <h2 className="text-xl font-semibold mb-4">6. Dispute Resolution</h2>
             <p className="text-gray-600 leading-relaxed">
-              In case of disputes, our support team will mediate between parties. All decisions made by Moneiero 
+              In case of disputes, our support team will mediate between parties. All decisions made by Swapmonero 
               regarding disputes are final.
             </p>
           </div>
