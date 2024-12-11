@@ -8,9 +8,9 @@ export const FAQ = () => {
         
         <div className="space-y-6 bg-white p-8 rounded-xl shadow-sm">
           <div>
-            <h2 className="text-xl font-semibold mb-2">How does Moneiero work?</h2>
+            <h2 className="text-xl font-semibold mb-2">How does Swapmonero work?</h2>
             <p className="text-gray-600">
-              Moneiero is a P2P platform where users can buy and sell cryptocurrencies directly with other users. 
+              Swapmonero is a P2P platform where users can buy and sell cryptocurrencies directly with other users. 
               All trades are protected by our escrow service to ensure safe transactions.
             </p>
           </div>
