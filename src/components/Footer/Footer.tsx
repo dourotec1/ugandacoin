@@ -25,7 +25,7 @@ export const Footer = () => {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://t.me/Swapmonero"
+              href="https://t.me/moneiero"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-indigo-600 transition-colors"
