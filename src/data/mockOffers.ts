@@ -16,12 +16,12 @@ interface Offer {
 
 export const mockOffers: Offer[] = [
   {
-    username: "FAST_COINS_4_U",
+    username: "CryptoKing",
     completedTrades: 8456,
     rating: 4.95,
     price: 163500.00,
     paymentMethods: [
-      { type: 'bank', name: 'Zelle pay' },
+      { type: 'bank', name: 'PayPal' },
       { type: 'card', name: 'Wise Transfer' }
     ],
     limits: { min: 100, max: 50000 },
@@ -33,12 +33,12 @@ export const mockOffers: Offer[] = [
     location: "United States"
   },
   {
-    username: "Energain",
+    username: "Markantonio",
     completedTrades: 6234,
     rating: 4.89,
     price: 164000.50,
     paymentMethods: [
-      { type: 'bank', name: 'Swish' },
+      { type: 'bank', name: 'SEPA Transfer' },
       { type: 'card', name: 'Revolut' }
     ],
     limits: { min: 200, max: 30000 },

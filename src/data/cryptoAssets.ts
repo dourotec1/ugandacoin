@@ -112,3 +112,9 @@ export const cryptoAssets = [
     logo: 'https://cryptologos.cc/logos/celo-celo-logo.png?v=035'
   }
 ];
+
+export const supportedCryptos = cryptoAssets.map(asset => ({
+  name: asset.name,
+  symbol: asset.symbol,
+  network: asset.network
+}));

@@ -6,7 +6,7 @@ export const Guides = () => {
     {
       icon: Shield,
       title: "Getting Started with P2P Trading",
-      description: "Learn the basics of peer-to-peer cryptocurrency trading and how to use Swapmonero safely.",
+      description: "Learn the basics of peer-to-peer cryptocurrency trading and how to use Moneiero safely.",
       sections: [
         "Understanding P2P trading",
         "Creating your first account",
@@ -77,7 +77,7 @@ export const Guides = () => {
         <div className="text-center mb-12">
           <h1 className="text-3xl font-bold mb-4">Trading Guides</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Learn everything you need to know about trading cryptocurrencies safely and effectively on Swapmonero.
+            Learn everything you need to know about trading cryptocurrencies safely and effectively on Moneiero.
           </p>
         </div>
 
@@ -107,11 +107,11 @@ export const Guides = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-2xl font-bold mb-4">Need More Help?</h2>
             <p className="mb-6">
-              Our support team is available 24/7 to assist you with any questions or concerns you may have about trading on Swapmonero.
+              Our support team is available 24/7 to assist you with any questions or concerns you may have about trading on Moneiero.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://t.me/Swapmonero"
+                href="https://t.me/Moneiero"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-indigo-600 px-6 py-2 rounded-lg hover:bg-gray-100 transition-colors inline-flex items-center justify-center gap-2"

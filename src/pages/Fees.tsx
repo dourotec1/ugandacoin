@@ -7,7 +7,7 @@ export const Fees = () => {
       <div className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-3xl font-bold mb-4">Fees</h1>
         <p className="text-gray-600 mb-8">
-          Swapmonero maintains a simple and transparent fee structure to support our non-custodial trading platform.
+          Moneiero maintains a simple and transparent fee structure to support our non-custodial trading platform.
         </p>
 
         <div className="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
@@ -100,7 +100,7 @@ export const Fees = () => {
               <div>
                 <h3 className="font-medium">Non-Custodial Platform</h3>
                 <p className="text-gray-600">
-                  Swapmonero is a non-custodial platform. You maintain full control of your funds at all times.
+                  Moneiero is a non-custodial platform. You maintain full control of your funds at all times.
                 </p>
               </div>
             </div>

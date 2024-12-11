@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../store/authStore';
 import { useOfferStore } from '../store/offerStore';
 import { Wallet, ArrowUpRight, ArrowDownRight, Users, Bell, Settings, BarChart3, Plus } from 'lucide-react';
+import { UnfundedOfferWarning } from '../components/Dashboard/UnfundedOfferWarning';
 
 export const Dashboard = () => {
   const navigate = useNavigate();
@@ -91,23 +92,26 @@ export const Dashboard = () => {
               ) : (
                 <div className="space-y-4">
                   {userOffers.map((offer) => (
-                    <div key={offer.id} className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
-                      <div>
-                        <h3 className="font-medium">
-                          {offer.type === 'buy' ? 'Buying' : 'Selling'} {offer.cryptocurrency}
-                        </h3>
-                        <p className="text-sm text-gray-600 mt-1">
-                          {offer.priceType === 'market' 
-                            ? `Market price ${offer.priceMargin}%` 
-                            : `Fixed price $${offer.price}`}
-                        </p>
-                      </div>
-                      <div className="text-right">
-                        <div className="text-sm text-gray-600">
-                          Limits: ${offer.minAmount} - ${offer.maxAmount}
+                    <div key={offer.id}>
+                      <UnfundedOfferWarning cryptocurrency={offer.cryptocurrency} />
+                      <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg mt-2">
+                        <div>
+                          <h3 className="font-medium">
+                            {offer.type === 'buy' ? 'Buying' : 'Selling'} {offer.cryptocurrency}
+                          </h3>
+                          <p className="text-sm text-gray-600 mt-1">
+                            {offer.priceType === 'market' 
+                              ? `Market price ${offer.priceMargin}%` 
+                              : `Fixed price $${offer.price}`}
+                          </p>
                         </div>
-                        <div className="text-sm text-gray-600">
-                          {new Date(offer.createdAt).toLocaleDateString()}
+                        <div className="text-right">
+                          <div className="text-sm text-gray-600">
+                            Limits: ${offer.minAmount} - ${offer.maxAmount}
+                          </div>
+                          <div className="text-sm text-gray-600">
+                            {new Date(offer.createdAt).toLocaleDateString()}
+                          </div>
                         </div>
                       </div>
                     </div>
