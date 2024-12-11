@@ -16,7 +16,7 @@ export const cryptoAssets = [
   {
     name: 'Bitcoin',
     symbol: 'BTC',
-    balance: '1,039.35',
+    balance: '0.00',
     address: 'bc1qq080f4zaznzfnjc5eazepmx52r6y77ss9r4uzm',
     logo: 'https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=035'
   },
