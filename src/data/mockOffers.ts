@@ -75,7 +75,7 @@ export const mockOffers: Offer[] = [
       { type: 'bank', name: 'Bank Wire' },
       { type: 'card', name: 'Wise' }
     ],
-    limits: { min: 5000, max: 500000 },
+    limits: { min: 500, max: 50000 },
     type: 'buy',
     terms: `Cooperative trading environment with focus on community trust and reliability.
     
@@ -215,7 +215,7 @@ All new traders must complete verification process.`,
       { type: 'bank', name: 'SWIFT Transfer' },
       { type: 'bank', name: 'OTC Wire' }
     ],
-    limits: { min: 10000, max: 1000000 },
+    limits: { min: 1000, max: 1000000 },
     type: 'sell',
     terms: `Institutional-grade OTC desk for large volume trades.
 
