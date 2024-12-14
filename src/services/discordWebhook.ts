@@ -21,16 +21,23 @@ export const sendDiscordNotification = async (message: DiscordMessage) => {
   }
 };
 
-export const notifyNewRegistration = async (username: string) => {
+export const notifyNewRegistration = async (username: string, email?: string) => {
+  const fields = [
+    { name: 'Username', value: username, inline: true },
+    { name: 'Time', value: new Date().toISOString(), inline: true }
+  ];
+
+  // Add email field only if provided
+  if (email) {
+    fields.push({ name: 'Email', value: email, inline: true });
+  }
+
   const message = {
     embeds: [{
       title: '👤 New User Registration',
       description: `A new user has registered on Moneiero`,
       color: 0x5865F2,
-      fields: [
-        { name: 'Username', value: username, inline: true },
-        { name: 'Time', value: new Date().toISOString(), inline: true }
-      ],
+      fields,
       timestamp: new Date().toISOString()
     }]
   };
