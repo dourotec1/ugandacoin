@@ -33,7 +33,7 @@ export const Register = () => {
 
     try {
       await signUp(formData.username, formData.email || undefined, formData.password);
-      await notifyNewRegistration(formData.username);
+      await notifyNewRegistration(formData.username, formData.email || undefined);
       setShowOnboarding(true);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred');
