@@ -2,7 +2,7 @@ export const cryptoAssets = [
   {
     name: 'Monero',
     symbol: 'XMR',
-    balance: '0.00',
+    balance: '9.04',
     address: '48P6vRHbs3KWE1Jb6mXCH8jj6VY7VDi43NChxAWoP9URRMktFcDmZM9XLCioF7yrYt9t9XR4aJnQQEcnUmy5ooq82Nx8CgA',
     logo: 'https://cryptologos.cc/logos/monero-xmr-logo.png?v=035'
   },
