@@ -94,7 +94,7 @@ export const cryptoAssets = [
     symbol: 'USDT',
     network: 'TRC20',
     balance: '0.00',
-    address: 'TTQAsfBN25bei7QESk9sRRnDUhaMXD7axA',
+    address: 'TKWL9x1fBJMdjo1KsbTfBrppu9AX6eMbpW',
     logo: 'https://cryptologos.cc/logos/tether-usdt-logo.png?v=035'
   },
   {
