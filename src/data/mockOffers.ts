@@ -67,7 +67,7 @@ export const mockOffers: Offer[] = [
     location: "Canada"
   },
   {
-    username: "CryptoCoop",
+    username: "DigitalG",
     completedTrades: 15678,
     rating: 4.98,
     price: 164100.25,
