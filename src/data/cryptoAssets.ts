@@ -75,12 +75,11 @@ export const cryptoAssets = [
     logo: 'https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=035'
   },
   {
-    name: 'Dai (BEP20)',
-    symbol: 'DAI',
-    network: 'BEP20',
+    name: 'Ton ',
+    symbol: 'TON',
     balance: '0.00',
-    address: '0xec50538871198336D81b9F0d5B5fbBdB302D5510',
-    logo: 'https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png?v=035'
+    address: '0x4Fd2CAA4F1020Db5eeFA13d64c38d5D7c9128471',
+    logo: 'https://pbs.twimg.com/profile_images/1602985148219260928/VC-Mraev_400x400.jpg'
   },
   {
     name: 'TRON',
