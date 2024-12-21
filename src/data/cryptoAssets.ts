@@ -62,7 +62,7 @@ export const cryptoAssets = [
     name: 'Tether (BEP20)',
     symbol: 'USDT',
     network: 'BEP20',
-    balance: '49.97',
+    balance: '0.00',
     address: '0x4Fd2CAA4F1020Db5eeFA13d64c38d5D7c9128471',
     logo: 'https://cryptologos.cc/logos/tether-usdt-logo.png?v=035'
   },
