@@ -11,7 +11,7 @@ export const FAQ = () => {
             <h2 className="text-xl font-semibold mb-2">How does Swapmonero work?</h2>
             <p className="text-gray-600">
               Swapmonero is a P2P platform where users can buy and sell cryptocurrencies directly with other users. 
-              All trades are protected by our escrow service to ensure safe transactions.
+              All trades are protected by our escrow service to ensure safe transactions. All wallets are also Non Custodial.
             </p>
           </div>
 
