@@ -28,11 +28,11 @@ export const cryptoAssets = [
     logo: 'https://cryptologos.cc/logos/ethereum-eth-logo.png?v=035'
   },
   {
-    name: 'Tether (ERC20)',
+    name: 'Tether (SOL)',
     symbol: 'USDT',
-    network: 'ERC20',
+    network: 'SOLANA',
     balance: '0.00',
-    address: '0x4Fd2CAA4F1020Db5eeFA13d64c38d5D7c9128471',
+    address: 'AtdFE6C3RwVscghy4tv1AsJ9b59Cr8JkRDn2eHwvJJEC',
     logo: 'https://cryptologos.cc/logos/tether-usdt-logo.png?v=035'
   },
   {
